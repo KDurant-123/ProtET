@@ -21,7 +21,7 @@ conda activate ProtET
 ```
 ### Install Packages
 ```
-bash environment.sh  
+pip install -r requirements.txt
 ```
 
 ## Model Checkpoint
