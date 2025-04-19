@@ -1,10 +1,7 @@
 {
   "architectures": [
-    "FSTForPretrain"
+    "ProtETPretrain"
   ],
-  "fusion_batch_norm": true,
-  "fusion_num_heads": 8,
-  "fusion_num_layers": 1,
   "hidden_sizes": [
     1280,
     768,
@@ -12,11 +9,10 @@
   ],
   "logit_scale_init": 0.07,
   "mlp_num_layers": 2,
-  "model_type": "FST",
   "projection_dim": 512,
   "protein_mask_probability": 0.15,
   "protein_model_config": {
-    "_name_or_path": "/root/data/backbones/esm2_t33_650M_UR50D",
+    "_name_or_path": "/ProtET/Config/esm2_t33_650M_UR50D",
     "add_cross_attention": false,
     "architectures": [
       "EsmForMaskedLM"
@@ -100,11 +96,9 @@
     "vocab_list": null,
     "vocab_size": 33
   },
-  "proto_dim": 512,
-  "proto_num": 512,
   "text_mask_probability": 0.15,
   "text_model_config": {
-    "_name_or_path": "/root/data/backbones/BiomedNLP-PubMedBERT-base-uncased-abstract",
+    "_name_or_path": "/ProtET/Config/BiomedNLP-PubMedBERT-base-uncased-abstract",
     "add_cross_attention": false,
     "architectures": [
       "BertForMaskedLM"
