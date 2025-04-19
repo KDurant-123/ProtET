@@ -28,8 +28,13 @@ conda activate ProtET
 pip install -r requirements.txt
 ```
 
-## Model Checkpoint
-[ProtET]()
+## Pretraining Dataset & Model Checkpoint
+
+
+| Pretraining Data : [protein-biotext dataset](https://zenodo.org/records/15242494/files/protein-biotext%20dataset.json.zip?download=1) |
+
+
+| ProtET : [config](https://github.com/KDurant-123/ProtET/blob/main/config.json) [ckpt](https://zenodo.org/records/15242494/files/model.safetensors?download=1) |
 
 ### Load the multi-modality aligned PLM
 
