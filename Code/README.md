@@ -1,1 +1,0 @@
-deepspeed zero1, gradient_checkpointing=True, batch size=64
