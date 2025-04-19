@@ -1,6 +1,6 @@
 {
   "architectures": [
-    "ProtETPretrain"
+    "ETForPretrain"
   ],
   "hidden_sizes": [
     1280,
