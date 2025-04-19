@@ -1,7 +1,7 @@
 # ProtET: Multi-Modal CLIP-Informed Protein Editing
 The repository is an official code implementation of [Multi-Modal CLIP-Informed Protein Editing](https://arxiv.org/abs/2407.19296), published in Health Data Science, a Science Partner Journal. 
 
-<img src="Figures/protein_biotext.png" alt="framework" width="850" height="200"> 
+<img src="Figures/protein_biotext.png" alt="framework" width="800" height="180"> 
 Figure 1: Multi-Modal Learning of Protein and Biotext.
   
 ## Abstract
@@ -41,6 +41,8 @@ pip install -r requirements.txt
 
 ProtET achieves promising performance on the established protein editing tasks and demonstrates state-of-the-art function classification performance across multiple attribute domains at the time of release (including enzyme catalytic activity, protein stability, and antibody-specific binding ability). This is primarily attributed to the innovative hierarchical training paradigm, incorporating a multi-modal pretraining phase and a cross-modal generation phase. Furthermore, the evaluation performance highlights ProtET as a valuable tool for future controllable protein discovery and optimization endeavors in real-world scenarios.
 
+<img src="Figures/evaluation.png" alt="evaluation" width="900" height="380"> 
+Table 1: Thorough performance evaluation results.
 
 ## Citation
 If you find this research work interesting and helpful, please cite our paper:
