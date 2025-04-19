@@ -11,7 +11,7 @@ Figure 1: Multi-Modal Learning of Protein and Biotext.
 ProtET is a multi-modality deep learning model that hybridly encodes biological languages and natural languages, and then executes cross-modal generation to achieve controllable protein editing. 
 To accomplish this, we first curate millions of protein-biotext aligned pairs, each comprising protein sequences and functional biotext annotations, as illustrated in Figure 2. The large-scale multi-modal dataset consists of 570,420 proteins with manually reviewed property annotations and 251,131,639 proteins with computationally analyzed annotations. We then construct transformer-structured encoder-based models (*i.e.*, a large protein model with 650 million trainable parameters and a large language model with 100 million trainable parameters) to encode the features of both protein sequences and biotexts, respectively. Additionally, a hierarchical training paradigm is proposed to alleviate the challenge of cross-modal protein editing. During the pretraining stage, similar to CLIP, our multi-modality pretraining is performed using contrastive learning objectives to align the features of the protein and biotext, facilitating easier editing instruction. In the editing stage, the aligned protein features and desired function description features extracted by the pretrained models are fused by the introduced FiLM module. And we construct a generative decoder model to design the desired protein sequences in an auto-regressive manner. ProtET innovatively introduces a novel protein editing paradigm through multi-modal pretraining and cross-modal generation. Its controllable protein editing capability to enhance human-expected functionality demonstrates the great potential for clinical applications, such as vaccine development and genetic therapy, etc.
 
-<img src="Figures/framework.png" alt="framework" width="650" height="500"> 
+<img src="Figures/framework.png" alt="framework" width="850" height="600"> 
 Figure 2: Overview of ProtET framework.
 
 ## Implement details
@@ -41,7 +41,7 @@ pip install -r requirements.txt
 
 ProtET achieves promising performance on the established protein editing tasks and demonstrates state-of-the-art function classification performance across multiple attribute domains at the time of release (including enzyme catalytic activity, protein stability, and antibody-specific binding ability). This is primarily attributed to the innovative hierarchical training paradigm, incorporating a multi-modal pretraining phase and a cross-modal generation phase. Furthermore, the evaluation performance highlights ProtET as a valuable tool for future controllable protein discovery and optimization endeavors in real-world scenarios.
 
-<img src="Figures/evaluation.png" alt="evaluation" width="900" height="380"> 
+<img src="Figures/evaluation.png" alt="evaluation" width="800" height="350"> 
 Table 1: Thorough performance evaluation results.
 
 ## Citation
