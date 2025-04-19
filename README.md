@@ -1,5 +1,5 @@
 # ProtET: Multi-Modal CLIP-Informed Protein Editing
-The repository is an official code implementation of [Multi-Modal CLIP-Informed Protein Editing](https://arxiv.org/abs/2407.19296), published in Health Data Science, a Science Partner Journal. 
+The repository is an official code implementation of [Multi-Modal CLIP-Informed Protein Editing](https://spj.science.org/doi/10.34133/hds.0211), published in Health Data Science, a Science Partner Journal. 
 
 <img src="Figures/protein_biotext.png" alt="framework" width="800" height="180"> 
 Figure 1: Multi-Modal Learning of Protein and Biotext.
