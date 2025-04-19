@@ -34,12 +34,13 @@ pip install -r requirements.txt
 | Pretraining Data : [protein-biotext dataset](https://zenodo.org/records/15242494/files/protein-biotext%20dataset.json.zip?download=1) |
 
 
-| ProtET : [config](https://github.com/KDurant-123/ProtET/blob/main/config.json) [ckpt](https://zenodo.org/records/15242494/files/model.safetensors?download=1) |
+| ProtET : [config](https://github.com/KDurant-123/ProtET/blob/main/config.json) & [ckpt](https://zenodo.org/records/15242494/files/model.safetensors?download=1) |
 
 
-## downstream tasks
+## Downstream tasks
 
 ProtET achieves promising performance on the established protein editing tasks and demonstrates state-of-the-art function classification performance across multiple attribute domains at the time of release (including enzyme catalytic activity, protein stability, and antibody-specific binding ability). This is primarily attributed to the innovative hierarchical training paradigm, incorporating a multi-modal pretraining phase and a cross-modal generation phase. Furthermore, the evaluation performance highlights ProtET as a valuable tool for future controllable protein discovery and optimization endeavors in real-world scenarios.
+
 
 ## Citation
 If you find this research work interesting and helpful, please cite our paper:
