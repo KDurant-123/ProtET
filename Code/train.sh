@@ -19,7 +19,7 @@ echo "==========================================================================
 
 
 # run
-torchrun $ddp_options /root/code/protein/ET/pretrain.py \
---deepspeed --deepspeed_config /root/code/protein/ET/zero1.json \
---batch_size 64 \
---output_path /root/data/ET/version1
+torchrun $ddp_options /ProtET/Code/pretrain.py \
+--deepspeed --deepspeed_config /ProtET/Code/CONFIG_FILE \
+--batch_size BATCH_SIZE \
+--output_path SAVE_PATH
